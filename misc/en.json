@@ -1,0 +1,25 @@
+{
+  "navbar": {
+    "tabs": ["About", "Skillset", "Projects", "Contact"]
+  },
+  "header": ["I am", "Robert Moraru", "Web Developer"],
+  "about": {
+    "title": "About me",
+    "bio": "I'm a web developer from Bacau, Romania. Currently, I am studying Mathematics and Computer Science at Alexandru Ioan Cuza University of Iasi. I've been interested in web development ever since high school. I'd describe myself as an autodidactic individual. Since my googling skills improved due extensive research, I'd consider myself a decent problem solver. I'm keen about following the trends and learning the newest technologies of web development."
+  },
+  "skillset": {
+    "title": "My Skillset"
+  },
+  "projects": {
+    "title": "My Projects",
+    "projs": [
+      "Frost is an ecommerce web app created using the MERN stack. The front-end is built using Bootstrap and React. The Back-end runs on Node.js.",
+      "Greetify is a dating web app built using the MERN stack. It features encrypted authentication, geolocation, real-time chatting using Socket.io.",
+      "Grayed is a minimalist social media web app made with Node.js. It is my first website. It uses Bootstrap, Express.js, MongoDB and EJS."
+    ],
+    "buttons": ["Visit website ", "View GitHub Repository "]
+  },
+  "contact": {
+    "title": ["Let's", "Talk"]
+  }
+}

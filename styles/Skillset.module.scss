@@ -1,0 +1,120 @@
+@import "./variables.module.scss";
+
+.cover {
+  background-color: #bde0fe;
+  width: 100vw;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  h1 {
+    display: inline;
+    text-align: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+}
+
+.carousel {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  .innerCarousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    i {
+      font-size: 3rem;
+      user-select: none;
+      cursor: pointer;
+      transition: ease 0.3s;
+      &:hover {
+        color: #68b4fc;
+        margin-bottom: 10px;
+      }
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+      span {
+        margin-top: 10px;
+        font-size: 1.5rem;
+      }
+    }
+    div:nth-of-type(1) {
+      margin: auto 0;
+    }
+    div:nth-of-type(2) {
+      margin: auto 0;
+      span {
+        font-size: 1.15rem;
+      }
+    }
+    div:nth-of-type(4) {
+      margin: auto 0;
+      span {
+        font-size: 1.15rem;
+      }
+    }
+    div:nth-of-type(5) {
+      margin: auto 0;
+    }
+  }
+}
+
+@include mobile-S {
+  .carousel {
+    .innerCarousel {
+      i {
+        font-size: 2rem;
+      }
+      div:nth-of-type(2) {
+        display: none;
+      }
+      div:nth-of-type(4) {
+        display: none;
+      }
+    }
+  }
+}
+
+@include mobile-M {
+}
+
+@include mobile-L {
+}
+
+@include tablet {
+  .carousel {
+    .innerCarousel {
+      i {
+        font-size: 3.5rem;
+      }
+      div:nth-of-type(2) {
+        display: inherit;
+      }
+      div:nth-of-type(4) {
+        display: inherit;
+      }
+    }
+  }
+}
+
+@include laptop {
+}
+
+@include laptop-L {
+}
+
+@include K4 {
+}

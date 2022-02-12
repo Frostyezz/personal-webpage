@@ -1,0 +1,25 @@
+{
+  "navbar": {
+    "tabs": ["Despre", "Calificări", "Proiecte", "Contact"]
+  },
+  "header": ["Mă numesc", "Robert Moraru", "Dezvoltator web"],
+  "about": {
+    "title": "Despre mine",
+    "bio": "Sunt un dezvoltator web din Bacău, Romania. Momentan, studiez Matematică-Informatică la Universitatea Alexandru Ioan Cuza din Iași. Am fost interesat de dezvoltare web încă din liceu. M-aș descrie ca fiind un autodidact. Datorită abilităților mele de căutare, mă consider decent la rezolvarea problemelor. Sunt pasionat cu privire la tendințele și noile tehnologii din domeniul dezvoltării web."
+  },
+  "skillset": {
+    "title": "Calificările mele"
+  },
+  "projects": {
+    "title": "Proiectele mele",
+    "projs": [
+      "Frost este o aplicatie web de ecommerce creată cu stack-ul MERN. Partea de fațadă este făcut folosind Bootstrap și React. Partea de server rulează pe Node.js.",
+      "Greetify este o aplicație web de întâlniri construită folosind stack-ul MERN. Dispune de autentificare criptată, geolocație, mesagerie în timp real folosind Socket.io.",
+      "Grayed este o aplicatie web minimală de social media făcută cu Node.js. Acesta este primul meu site web. Folosește Bootstrap, Express.js, MongoDB și EJS."
+    ],
+    "buttons": ["Vizitează website-ul ", "Vezi pagina GitHub "]
+  },
+  "contact": {
+    "title": ["Hai să", "vorbim"]
+  }
+}

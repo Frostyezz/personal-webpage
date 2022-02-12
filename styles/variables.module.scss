@@ -1,0 +1,43 @@
+$pb: #0804cc;
+
+@mixin mobile-S {
+  @media only screen and (min-width: 0px) {
+    @content;
+  }
+}
+
+@mixin mobile-M {
+  @media only screen and (min-width: 375px) {
+    @content;
+  }
+}
+
+@mixin mobile-L {
+  @media only screen and (min-width: 425px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin laptop-L {
+  @media only screen and (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin K4 {
+  @media only screen and (min-width: 2560px) {
+    @content;
+  }
+}
