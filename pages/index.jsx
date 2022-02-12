@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import About from "../components/About";
 import Skillset from "../components/Skillset";
