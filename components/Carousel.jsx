@@ -44,6 +44,7 @@ const Carousel = () => {
           }`}
         >
           <Image
+            loading="eager"
             src={`/${i ? skills[i - 1] : skills[skills.length - 1]}-logo.png`}
             width="100px"
             height="100px"
@@ -56,6 +57,7 @@ const Carousel = () => {
           }`}
         >
           <Image
+            loading="eager"
             src={`/${skills[i]}-logo.png`}
             width="200px"
             height="200px"
@@ -68,6 +70,7 @@ const Carousel = () => {
           }`}
         >
           <Image
+            loading="eager"
             src={`/${
               i !== skills.length - 1 ? skills[i + 1] : skills[0]
             }-logo.png`}
