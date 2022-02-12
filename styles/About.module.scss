@@ -79,13 +79,13 @@
       .bio {
         padding: 20px 20px;
         width: 90%;
-        height: 50%;
+        height: fit-content;
         line-height: 0;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
         border-top-right-radius: 0px;
         p {
-          font-size: 0.7rem;
+          font-size: 0.8rem;
         }
       }
     }
