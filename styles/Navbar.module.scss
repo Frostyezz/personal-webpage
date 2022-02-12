@@ -26,7 +26,7 @@
 }
 
 .tabs {
-  width: 70%;
+  //width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -189,9 +189,9 @@
   .tabs {
     margin: 0px 15%;
     font-size: 1.25rem;
-    a {
-      margin: 35px inherit;
-    }
+    // a {
+    //   margin: 35px inherit;
+    // }
   }
 }
 
