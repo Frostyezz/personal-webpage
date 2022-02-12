@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "eslint": "8.8.0",
-    "eslint-config-next": "12.0.10"
+    "eslint-config-next": "12.0.10",
+    "bootstrap-icons": "^1.8.1",
+    "sass": "^1.49.7"
   }
 }
